@@ -8,6 +8,7 @@ namespace ConsoleTheater.Models
     public Movie Movie { get; set; }
     public decimal Price { get; set; }
     public string Type { get; set; }
+
     public Ticket(string time, Movie movie, decimal price)
     {
       Time = time;
